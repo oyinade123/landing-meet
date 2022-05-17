@@ -97,12 +97,15 @@ header {
     align-items: center;
   }
 
-  .section-2 img {
-    width: 28%;
-    margin-right: 0;
+  .section-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .section-3 {
     text-align: center;
   }
+}
+
+@media (min-width: 1200px) {
 }
